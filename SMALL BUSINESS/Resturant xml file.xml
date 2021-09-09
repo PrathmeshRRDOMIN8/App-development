@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="50dp"
+        android:text="CHAWLA'S TANDOORI JUNCTION"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/ctj"
+        android:layout_width="match_parent"
+        android:layout_height="228dp"
+        android:layout_below="@id/Name"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photo1" />
+
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="409dp"
+        android:layout_height="62dp"
+        android:layout_above="@id/address"
+        android:layout_marginBottom="8dp"
+        android:paddingLeft="90dp"
+        android:paddingTop="10dp"
+        android:text="North Indian restaurant"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="341dp"
+        android:layout_height="78dp"
+        android:layout_above="@id/contact"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="14dp"
+        android:layout_marginBottom="-1dp"
+        android:text="Shop No. 03,Karkar Duma, New Delhi"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/place"
+        android:layout_width="72dp"
+        android:layout_height="73dp"
+        android:layout_below="@id/description"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-9dp"
+        android:layout_marginTop="-8dp"
+        android:layout_marginRight="6dp"
+        android:layout_toLeftOf="@id/address"
+        android:src="@drawable/place" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="341dp"
+        android:layout_height="65dp"
+        android:layout_above="@id/ctj4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="91dp"
+        android:layout_marginBottom="81dp"
+        android:text="+919811118950"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="85dp"
+        android:layout_above="@id/www"
+        android:layout_below="@id/place"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="1dp"
+        android:src="@drawable/call" />
+
+    <TextView
+        android:id="@+id/www"
+        android:layout_width="339dp"
+        android:layout_height="82dp"
+        android:layout_above="@id/ctj2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="1dp"
+        android:text="http://www.chawlastandoorijunction.in/"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="62dp"
+        android:layout_height="71dp"
+        android:layout_above="@id/ctj4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="3dp"
+        android:layout_toLeftOf="@id/www"
+        android:src="@drawable/web" />
+
+    <ImageView
+        android:id="@+id/ctj2"
+        android:layout_width="143dp"
+        android:layout_height="173dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_toRightOf="@id/ctj3"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photo2" />
+
+    <ImageView
+        android:id="@+id/ctj3"
+        android:layout_width="134dp"
+        android:layout_height="174dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="1dp"
+        android:layout_toRightOf="@id/ctj4"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photo3" />
+
+    <ImageView
+        android:id="@+id/ctj4"
+        android:layout_width="135dp"
+        android:layout_height="172dp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/photo4" />
+
+    </RelativeLayout>
